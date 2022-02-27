@@ -1,0 +1,221 @@
+:root {
+    --font-primary : #EA6B02;
+  --font-secondary: 'Open Sans', 'sans-serif';
+}
+
+.section {
+    padding-top: 6rem ;
+}
+
+.section-description {
+    width: 45%;
+    margin: 0 auto;
+    margin-bottom: 5.625rem;
+}
+
+.heading-secondary{
+    margin-bottom: 3.75rem;
+}
+
+/*************/
+/* HEADER */
+/*************/
+
+#main-header {
+    min-height: 100vh;
+    padding-bottom: 7.81rem ;
+    background: url(/img/main-hero.png) no-repeat center;
+    background-size: cover;
+}
+
+#section-hero {
+    padding-top: 6rem;
+}
+
+
+
+#main-header .scroll-on {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 999;
+    background: url(/img/main-hero.png);
+}
+
+.scroll-on .logo {
+    height: 2.2rem;
+}
+
+.hero-text-box h1 {
+    font-weight: 600;
+    line-height: 4.375rem;
+    margin-bottom: 1rem;
+}
+
+/*************/
+/* WORK PROCESS SECTION */
+/*************/
+
+.work-process-item {
+    text-align: center;
+}
+
+.work-process-item .h2 {
+    display: inline-block;
+    margin-bottom: 1.6rem;
+}
+
+.work-process-item h4 {
+    margin-bottom: .8rem;
+}
+
+/*************/
+/* WORK PROCESS SECTION */
+/*************/
+
+#project-section .col-md-3 div {
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+#project-section img {
+    width: 100%;
+}
+
+#project-section .col-md-3  {
+    overflow: hidden;
+}
+
+/*************/
+/* Expert team SECTION */
+/*************/
+
+
+#team-section .col-md-3 img {
+    width: 100%;
+}
+
+/*************/
+/* blog  SECTION */
+/*************/
+
+.blog-btn {
+    display: inline-block;
+    width: 100%;
+    border: none;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.5rem;
+}
+
+.blog-btn a {
+    text-decoration: none;
+    color: #777;
+}
+
+.blog-btn span {
+    margin-left: .2rem;
+}
+
+#blog-section .card {
+    border-radius: .7rem;
+    overflow: hidden;
+}
+
+/*************/
+/* Testimonial  SECTION */
+/*************/
+
+#testimonial-section {
+    height: 37.5rem;
+    background:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)) ,url(/img/testimonial-img.png) no-repeat center;
+    background-size: cover;
+
+}
+
+
+#testimonial-section .carousel-indicators {
+    bottom: -70px;
+}
+
+#testimonial-section .carousel-indicators [data-bs-target] {
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    margin-right: 8px;
+    margin-left: 8px;
+}
+
+.carousel-text-box {
+    margin: 0 auto;
+    padding: 3rem 1rem;
+    width: 85%;
+}
+
+.carousel-text-box h6{
+    margin-top: 2rem;
+}
+
+/*************/
+/* Testimonial  SECTION */
+/*************/
+
+.contact-row {
+    background: url(/img/main-hero.png) no-repeat center;
+    
+}
+
+/*************/
+/* Testimonial  SECTION */
+/*************/
+footer {
+    font-size: 12px;
+}
+
+
+.footer-logo + p {
+    margin-top: 1.25rem;
+}
+
+
+
+.footer-nav a {
+    color: white;
+}
+
+.footer-nav .nav-link{
+    padding: .3rem 0;
+}
+
+.newsletter-email {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.newsletter-input {
+    width: 100%;
+    background: transparent;
+    padding-bottom: .5rem;
+    border: none;
+    border-bottom: 2px solid #FFD9B9;
+    color: white;
+}
+
+.newsletter-input::placeholder {
+    color: var(--font-primary);
+}
+
+.newsletter-input:focus {
+    outline:none;
+   
+}
+
+.newsletter-icon {
+    font-size: 1rem;
+    position: absolute;
+    right: 10px;
+}
